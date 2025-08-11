@@ -16,7 +16,7 @@ const Footer = () => {
         {/* Contact Info */}
         <div className="text-center space-y-1 text-white">
           <h1 className="font-medium text-lg hover:text-white transition-colors cursor-pointer">
-            nkunim@portfolio.com
+           https://nkunims-portfolio.netlify.app/
           </h1>
           <p className="text-sm">2nd Royal Avenue Street, Adenta West</p>
           <p className="text-sm">Accra, Ghana</p>
