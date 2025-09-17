@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router';
 import { FiMenu, FiX } from 'react-icons/fi';
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/Nkunim2.png'
 import { IoIosSquare } from 'react-icons/io';
 
 const Navbar = () => {
@@ -12,8 +12,8 @@ const Navbar = () => {
      
       <nav className="flex justify-between items-center h-14 px-4 md:px-6 text-black relative">
          <div className='flex items-center'> 
-          <img src={logo} alt="" className='w-12 h-12' />
-        <div className='flex items-center'><h1 className='font-bold text-3xl'>NKUNIM</h1><IoIosSquare size={6} className='mt-5 text-pink-300'/></div>
+          <img src={logo} alt="" className='w-20 h-20' />
+        
       </div>
         {/* Nav Links */}
 
@@ -21,7 +21,7 @@ const Navbar = () => {
           {[
             { path: '/', label: 'HOME' },
             { path: '/about', label: 'ABOUT' },
-            { path: '/projects', label: 'PORTFOLIO' },
+            { path: '/projects', label: 'PROJECTS' },
             { path: '/contact', label: 'CONTACT' },
           ].map(({ path, label }) => (
             <NavLink

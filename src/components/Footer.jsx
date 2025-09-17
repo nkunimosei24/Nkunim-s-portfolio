@@ -1,6 +1,8 @@
 import React from 'react'
 import logo from '../assets/images/logo.png'
 import { IoIosSquare } from 'react-icons/io'
+import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { TbBrandWhatsappFilled } from 'react-icons/tb'
 
 const Footer = () => {
   return (
@@ -15,9 +17,12 @@ const Footer = () => {
 
         {/* Contact Info */}
         <div className="text-center space-y-1 text-white">
-          <h1 className="font-medium text-lg hover:text-white transition-colors cursor-pointer">
-           https://nkunims-portfolio.netlify.app/
-          </h1>
+          <div className='flex justify-center space-x-6'>
+            <a href="https://github.com/nkunimosei24"><FaGithub size={25}/></a>
+            <a href="www.linkedin.com/in/nkunim-asaah-osei-43973324a"><FaLinkedin size={25} /></a>
+            <a href=""><TbBrandWhatsappFilled size={25} /></a>
+
+          </div>
           <p className="text-sm">2nd Royal Avenue Street, Adenta West</p>
           <p className="text-sm">Accra, Ghana</p>
         </div>
